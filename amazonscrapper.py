@@ -9,7 +9,7 @@ url_str = input("Enter the product category you want to search for: ")
 #example :- mans glasses
 url = []
 
-# Hacky fix
+
 words = url_str.split()
 var = len(words)
 
@@ -41,9 +41,7 @@ strftime("%Y-%m-%d %H:%M:%S", gmtime())
 headers ="Asin, Name," + "Price : " + strftime("%Y-%m-%d %H:%M:%S", gmtime()) + ", Number of Reviews\n"
 f.write(headers)
 
-# Regex if needed
-# a = re.compile((?<=data-asin))
-# Used this to beautify and inspect the html/xml data ----> http://jsbeautifier.org/
+
 
 
 # Style 1 of Amazon's product display
